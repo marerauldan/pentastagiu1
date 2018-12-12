@@ -24,11 +24,7 @@ namespace ConsoleApp1
                 Console.Write("Ghiceste-l: ");
                 string input = Console.ReadLine();
 
-                if (!int.TryParse(input, out nr))
-                {
-                    Console.WriteLine("Acesta nu este un numar.");
-                    continue;
-                }
+                
 
                 if (nr < r)
                 {
